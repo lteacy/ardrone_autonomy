@@ -77,8 +77,8 @@ catkin_package(
 # Build [pathced] ardronelib from an external project
 include(ExternalProject)
 ExternalProject_Add(ardronelib
-    GIT_REPOSITORY git://github.com/AutonomyLab/ardronelib.git
-    GIT_TAG 2f987029c55531e4c0119c3600f9c57f935851ed
+    GIT_REPOSITORY git://github.com/lteacy/ardronelib.git
+    GIT_TAG e2143362fb999b70b1bf59c9b6e74b8d4b66e5ac
     PREFIX ${CATKIN_DEVEL_PREFIX}
     CONFIGURE_COMMAND echo "No configure"
     BUILD_COMMAND make
